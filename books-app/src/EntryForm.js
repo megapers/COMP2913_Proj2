@@ -29,7 +29,7 @@ class EntryForm extends React.Component{
         <div>
             <Form ref={(ref) => this.formRef = ref} onSubmit={this.handleSubmit}>
                 <Form.Group controlId="formBasic">
-                    <Form.Control type="text" onChange={this.handleChange} placeholder="Search a book..." />
+                    <Form.Control type="text" onChange={this.handleChange} placeholder={this.props.defaultValue} />
                 </Form.Group>
             
                 <Button variant="primary" type="submit">
