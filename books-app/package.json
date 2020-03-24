@@ -12,7 +12,8 @@
     "react-bootstrap": "^1.0.0-beta.17",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "react-spinners": "^0.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +34,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ],
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "emotion"
     ]
   }
 }
